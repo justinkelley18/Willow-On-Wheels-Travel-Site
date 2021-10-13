@@ -1,0 +1,232 @@
+.AbPage{
+    position:absolute;
+ }
+
+ .buildCard{
+     flex-wrap:row; 
+ }
+
+
+.ComingSoon{ 
+    height:200px
+}
+
+.center{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.JMB {
+    flex-direction:column;
+    position: fixed;
+    background-color:beige;
+    // border: 2px solid grey;
+    padding:2rem 1rem;
+    width: 100%;
+    height: 130px; 
+    margin-bottom: 500px;
+}
+
+.title{
+    font-family: "Raleway", Sans-serif;
+}
+
+.topNavRight {
+float: right;
+margin-left: -160px;
+}
+
+.center2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.App {
+    font-family: sans-serif;
+    color: #f8f8f8;
+    font-weight: 200;
+}
+ 
+.imgContainer{
+    align-items: center;
+}
+
+.HomeImg1{
+    border: 5px solid black;
+    height: 725px;
+    width: 425px;
+    margin:10px;
+    margin-left: 20px;
+    
+}
+
+.HomeImg2{
+    border: 5px solid black;
+    height: 725px;
+    width: 425px;
+    margin:10px
+}
+
+.HomeImg3{
+    border: 5px solid black;
+    height: 725px;
+    width: 425px;
+   margin:10px
+}
+
+
+.homeJMB{
+    text-align: center;
+}
+
+.jmbHome{
+    background-color: silver;
+}
+
+.Card-1{
+    border: 5px solid black;
+    height:300px;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.Card-2{
+    border: 5px solid black;
+    height:300px;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.Card-3{
+    border: 5px solid black;
+    height:300px;
+    width: 500px;
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.card-img{
+    border-right: 5px solid black;
+    height: 290px;
+    width: 250px
+}
+
+.taggbox-container{
+    border: 5px solid black;
+    float:right;
+    width: 500px;
+    height: 950px;
+    overflow:auto;  
+}
+
+.taggbox-outer{
+    margin :10px;
+    padding-right: 125px;
+    background-color:maroon;
+}
+
+.AboutUs{
+    height:1000px;
+    width:1000px;
+    text-align: center;
+    margin:0 auto;
+    background-color:silver;
+    margin-top: 225px
+ }
+
+.youtube-title{
+    margin-top: 100px;
+    text-align: center;
+    background-color:silver;
+}
+
+.youtube-embed{
+    padding-left: 360px;
+    padding-bottom: 25px;
+}
+
+ .youtube-player{
+     border: 1px solid black;
+ }
+
+ .buildCard{
+     margin-top: 200px;
+    text-align: center;
+    padding: 20px;
+    // width:1000px;
+    margin-right: 300px;
+ }
+
+ .buildImg{
+     height: 450px;
+ }
+
+ .AboutUsImg{
+    //  border: 1px solid green;
+     float: left;
+    height: 445px;
+    width: 450px;
+ }
+
+ .contactInfo{
+    //  border: 1px solid red;
+    padding-right: 45px;
+    padding-top: 60px;
+ }
+
+ .col1 {
+    //  border: 1px solid blue;
+    float:left; 
+    width:200px;
+    margin-left: 40px;
+   margin-right: 70px;
+   margin-bottom: 30px;
+   
+}
+
+.col2 {
+    // border: 1px solid blue;
+    float:left; 
+    width:200px; 
+    margin-bottom:30px;
+   
+}
+
+.abFiller {
+    padding: 15px;
+    padding-right: 20px;
+}
+
+.describeUs{
+    // border: 1px solid black;
+}
+
+.paraContent{
+    padding:25px;
+}
+
+.BlogTemplate{
+    height:1000px;
+    width:1000px;
+    text-align: center;
+    margin:0 auto;
+    background-color:silver;
+    margin-top: 225px
+
+}
+
+
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
